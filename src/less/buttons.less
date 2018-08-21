@@ -1,0 +1,35 @@
+@import 'variables';
+.tk-btn {
+    min-width: 130px;
+    max-width: 200px;
+    min-height: 50px;
+    border: none;
+    opacity: 1;
+    transition: opacity .4s;
+    color: @white;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.tk-btn:active {
+    opacity: .8;
+}
+
+.tk-btn.primary {
+    background-color: @primary;
+}
+.tk-btn.secondary {
+    background-color: @secondary;
+}
+.tk-btn.danger {
+    background-color: @danger;
+}
+.tk-btn.success {
+    background-color: @success;
+}
+.tk-btn.warning {
+    background-color: @warning;
+}
+.tk-btn.info {
+    background-color: @info;
+}
